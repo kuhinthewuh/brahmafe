@@ -3,7 +3,7 @@ import BrahmaSite from "@/components/BrahmaSite";
 import BrahmaNav from "@/components/brahma/BrahmaNav";
 import CursorGlow from "@/components/brahma/CursorGlow";
 
-const VIDEO_URL = "/assets/BrahmaLandingScroll.mp4";
+const VIDEO_URL = `${import.meta.env.BASE_URL}assets/BrahmaLandingScroll.mp4`;
 
 // Scroll distance dedicated to the bloom + emergence + fade, in viewport heights.
 const SCROLL_PAGES = 6;
